@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <div class="product-list-containter">
+      <ul class="product-list" id="productList">
+        <!-- <li class="product">
+          <img src="./thumbnails/9a742d17-6f93-4281-92fb-b225e334077e.jpg" />
+          <div>Bananas</div>
+          <div>produce</div>
+          <div>$<span>2.99</span></div>
+        </li> -->
+      </ul>
+    </div>
+
+    <style>
+      .product-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .product {
+        border: 1px solid black;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    </style>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
